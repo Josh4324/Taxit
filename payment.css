@@ -1,0 +1,39 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0em;
+}
+
+.content{
+    max-width: 940px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.container-1{
+    background-color: rgb(59, 46, 46);
+    color: antiquewhite;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+
+.background_margin{
+    max-width: 820px;
+    margin: auto;
+}
+
+div#two.content{
+    background-color: rgb(238, 238, 238);
+}
+
+div#two.content h2{
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+h3.sleekify{
+    font-weight: lighter;
+}
