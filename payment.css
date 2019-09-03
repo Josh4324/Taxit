@@ -2,6 +2,51 @@ body{
 font-family: Arial, Helvetica, sans-serif;
 margin: 0em;
 }
+/*header from jay*/
+.header-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+.top-nav{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.top-nav-link{
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+}
+.top-nav-link li{
+    padding: 10px;
+}
+
+
+.logo-section{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+.main-nav{
+    flex: 3;
+    justify-content: center;
+}
+.main-nav-link{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+/*-----------------------------------*/
+
+
 
 .content{
     max-width: 940px;
@@ -9,7 +54,7 @@ margin: 0em;
     padding-bottom: 40px;
 }
 .container-1{
-    background-color: rgb(59, 46, 46);
+    background-color:#2b696b ;
     color: antiquewhite;
     text-align: right;
     margin: 0px;
@@ -37,3 +82,160 @@ div#two.content h2{
 h3.sleekify{
     font-weight: lighter;
 }
+
+/*progress cards*/
+.card-image{
+    width:100%;
+    height:200px;
+  }
+
+  .card-div{
+    width: calc(100%/3 - 120px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+    padding:0px 0px 0px 0px;
+    margin-left:30px;
+    margin-bottom:30px;
+    
+  }
+
+
+  .funded{
+    float:right;
+    padding-right:10px;
+  }
+
+  .progress-card{
+    border: 1px solid white;
+    width:50%;
+    height: 20px;
+    border-radius:5px;
+    display: inline-block;
+    box-shadow: inset 5px  5px 5px 5px rgb(177, 163, 163);
+   
+  }
+
+  .progress-bar{
+    width:10%;
+    height:20px;
+    background-color:blue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .box21{
+    padding-left: 30px;
+    padding-top:10px;
+  }
+
+  .project-list{
+    display: flex;
+    margin: 0 auto;
+    width:80%;
+    flex-wrap: wrap;
+  }
+
+  .project-h3{
+    text-align:center;
+  }
+
+  .box22{
+    color:black;
+  }
+
+  .h31{
+    text-align:left;
+  }
+
+  .note{
+    line-height: 2.0em;
+  }
+
+  .progress{
+    border: 1px solid white;
+    width:200px;
+    height: 30px;
+    border-radius:5px;
+    display: inline-block;
+    box-shadow: inset 5px  5px 5px 5px rgb(177, 163, 163);
+  }
+
+  .progress .bar{
+    width:40px;
+    height:30px;
+    background-color:blue;
+    z-index:3; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+
+  .box1p{
+    margin-top:0px;
+    font-weight: 600px;
+    text-align: left;
+    font-size:28px;
+  }
+
+  .help{
+    font-weight: 600px;
+    font-size: 32px;
+    margin:0px;
+  }
+
+  .fundimage{
+    display: inline-block;
+  }
+
+  .fund{
+    display:block;
+    float:right;
+    margin-bottom:30px;
+
+  }
+  .content{
+    margin:0 auto;
+    width:80%;
+  }
+
+  .content-list{
+    list-style-type: none;
+    display: inline;
+  }
+
+ #content-input {
+    width: 100px;
+    height:5px;
+  }
+
+  #fund-button{
+    margin-top:30px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+    float: right;
+    
+  }
+
+
+/* footer */
+
+.footer-section{
+    background-color: darkgreen;
+}
+.footer-section > div{
+    display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    line-height: 1.5em;
+}
+.footer-section li{
+    list-style: none;
+}
+/*----------------------*/
